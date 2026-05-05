@@ -141,55 +141,6 @@ NexusHR/
 
 ---
 
-## ⚙️ Backend Setup
-
-### 1. Clone Repo
-
-```bash
-git clone https://github.com/your-username/NexusHR.git
-cd NexusHR/nexushr-backend
-```
-
-### 2. Create Database
-
-```sql
-CREATE DATABASE nexushr_db;
-```
-
-### 3. Configure application.properties
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/nexushr_db
-spring.datasource.username=root
-spring.datasource.password=root
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-
-server.port=8080
-```
-
-### 4. Run Backend
-
-```bash
-mvn spring-boot:run
-```
-
----
-
-## 💻 Frontend Setup
-
-```bash
-cd nexushr-frontend
-npm install
-npm run dev
-```
-
-Frontend: http://localhost:5173
-Backend: http://localhost:8080
-
----
-
 ## 🔐 CORS Configuration
 
 ```java
