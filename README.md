@@ -190,13 +190,6 @@ NexusHR/
 
 ---
 
-## 👨‍💻 Author
-
-**Krish Patidar**
-B.Tech CSE | Full Stack Developer
-
----
-
 # 📄 MIT License
 
 Copyright (c) 2026 Krish Patidar
